@@ -6,14 +6,14 @@ a{
 }
 
 [class*="col"]{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     /* debug */
     min-height: 50px;
     background-color: rgb(84, 84, 216);
     border: solid 1px white;
-    /* color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center; */
 }
 
 /* Header */
@@ -21,25 +21,7 @@ header .row{
     min-height: 50px;
 }
 
-header .col{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 /* Jumbotron */
-.jumbotron .row{
-    /* debug */
-    min-height: 500px;
-}
-
-.jumbotron .col{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 .jumbotron .jumbo_pic{
     width: 200px;
 }
