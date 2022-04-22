@@ -35,3 +35,12 @@ main section .main_pic{
     width: 240px;
     border-radius: 15px;
 }
+
+/* Footer */
+footer .col-lg-4{
+    flex-direction: column;
+}
+
+footer span{
+    text-align: center;
+}
