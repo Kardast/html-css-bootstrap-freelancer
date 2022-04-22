@@ -16,6 +16,10 @@ a{
     border: solid 1px white;
 }
 
+.row{
+    justify-content: center;
+}
+
 /* Header */
 header .row{
     min-height: 50px;
@@ -24,6 +28,12 @@ header .row{
 /* Jumbotron */
 .jumbotron .jumbo_pic{
     width: 200px;
+}
+
+/* Main */
+main section .main_pic{
+    width: 240px;
+    border-radius: 15px;
 }
 
 
