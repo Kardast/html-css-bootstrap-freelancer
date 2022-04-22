@@ -35,19 +35,3 @@ main section .main_pic{
     width: 240px;
     border-radius: 15px;
 }
-
-
-/* Other */
-.inside_row{
-    padding: 10px 10px;
-}
-
-.inside_col{
-    background-color: green;
-    border: none;
-    border: solid 1px rgb(84, 84, 216);
-}
-
-.space{
-    height: 25px;
-}
