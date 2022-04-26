@@ -5,7 +5,26 @@ a{
     padding: 0 5px;
 }
 
-[class*="col"]{
+.row{
+    justify-content: center;
+}
+
+/* Header */
+header{
+    background-color: #2c3e50;
+}
+
+header #a_logo{
+    width: 50%;
+    text-align: center;
+}
+
+/* Jumbotron */
+.jumbotron .jumbo_pic{
+    width: 200px;
+}
+
+.jumbotron [class*="col"]{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,29 +35,37 @@ a{
     border: solid 1px white;
 }
 
-.row{
-    justify-content: center;
-}
-
-/* Header */
-header .row{
-    min-height: 50px;
-}
-
-/* Jumbotron */
-.jumbotron .jumbo_pic{
-    width: 200px;
-}
-
 /* Main */
 main section .main_pic{
     width: 240px;
     border-radius: 15px;
 }
 
+main [class*="col"]{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* debug */
+    min-height: 50px;
+    background-color: rgb(84, 84, 216);
+    border: solid 1px white;
+}
+
 /* Footer */
 footer .col-lg-4{
     flex-direction: column;
+}
+
+footer [class*="col"]{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* debug */
+    min-height: 50px;
+    background-color: rgb(84, 84, 216);
+    border: solid 1px white;
 }
 
 footer span{
