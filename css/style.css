@@ -61,20 +61,36 @@ header .fa-bars{
 }
 
 /* Main */
+main{
+    padding: 25px 0;
+}
+
+main .line{
+    background-color: black;
+}
+
 main section .main_pic{
-    width: 240px;
+    width: 290px;
     border-radius: 15px;
+    margin: 10px 0;
 }
 
 main [class*="col"]{
     display: flex;
     justify-content: center;
     align-items: center;
+}
 
-    /* debug */
-    min-height: 50px;
-    background-color: rgb(84, 84, 216);
-    border: solid 1px white;
+main .col-8{
+    min-width: 920px;
+    max-width: 920px;
+}
+
+@media all and (max-width: 991px) {
+    main .col-8{
+        min-width: 620px;
+        max-width: 620px;
+    }
 }
 
 /* Footer */
