@@ -143,6 +143,11 @@ main .contact_me .line{
     color: black;
 }
 
+.contact_me #submit_button{
+    background-color: #1abc9c;
+    border: none;
+}
+
 /* Footer */
 footer .col-lg-4{
     flex-direction: column;
