@@ -5,6 +5,22 @@ a{
     padding: 0 5px;
 }
 
+/* Star and line */
+.starline{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.line{
+    background-color: white;
+    width: 90px;
+    height: 3px;
+    border-radius: 25px;
+}
+/*  End star and line */
+
 .row{
     justify-content: center;
 }
@@ -19,7 +35,21 @@ header #a_logo{
     text-align: center;
 }
 
+#header_button{
+    border-color: white;
+}
+
+header .fa-bars{
+    color: grey;
+}
+
 /* Jumbotron */
+.jumbotron{
+    background-color: #1abc9c;
+    color: white;
+    padding: 25px 0;
+}
+
 .jumbotron .jumbo_pic{
     width: 200px;
 }
@@ -28,11 +58,6 @@ header #a_logo{
     display: flex;
     justify-content: center;
     align-items: center;
-
-    /* debug */
-    min-height: 50px;
-    background-color: rgb(84, 84, 216);
-    border: solid 1px white;
 }
 
 /* Main */
